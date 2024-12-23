@@ -3,7 +3,7 @@ import ScheduleMeeting from "./ScheduleMeeting";
 import ScheduledMeetings from "./ScheduledMeetings";
 
 // Define a type for the meeting
-interface Meeting {
+export interface Meeting {
   id: number;
   title: string;
   time: string;
